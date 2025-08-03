@@ -5,7 +5,7 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center p-4 border-b">
+    <div className="flex justify-between items-center p-4 w-full">
       <Image src="/logo.svg" alt="logo" width={150} height={150} />
       <div>
         <ConnectButton />

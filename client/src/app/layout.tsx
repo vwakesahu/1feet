@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "1FEET",
+  title: "1Feet: Cross chain swaps made easy",
   description: "Cross chain swaps made easy",
 };
 
@@ -35,9 +35,11 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Navbar />
-            {children}
-            <BackgroundGradient />
+            <div className="h-screen flex flex-col items-center justify-center">
+              <Navbar />
+              {children}
+              <BackgroundGradient />
+            </div>
           </ThemeProvider>
         </RainbowkitProvider>
       </body>
